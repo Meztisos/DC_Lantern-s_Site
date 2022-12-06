@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+.expand-column-wrapper {
+  height: 100vh;
+  max-wdtih: 75rem;
+}
+
+.p {
+	font-size: 20px;
+}
+
+.body{
+	background-color: #000000;
+	margin: 0px;
+}
+	
+.expand-column-wrapper .column {
+  padding: 1rem;
+  transition: all 0.5s ease-in-out;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.expand-column-wrapper .column:hover {
+  -webkit-flex-basis: 40%;
+      -ms-flex-preferred-size: 40%;
+          flex-basis: 40%;
+}
+
+.expand-column-wrapper .column:hover .expand-column-content {
+  opacity: 1;
+}
+
+.expand-column-wrapper .expand-column-content {
+  color: #fefefe;
+  font-weight: bold;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width : 99.562em ){
+  .expand-column-wrapper {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.expand-column-wrapper .column:nth-of-type(1) {
+	background: url("images/will.png") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+	font-size: 16px;
+}
+
+.expand-column-wrapper .column:nth-of-type(2) {
+  background: url("images/hope.png") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+		font-size: 16px;
+}
+
+.expand-column-wrapper .column:nth-of-type(3) {
+  background: url("images/rage.png") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+		font-size: 16px;
+}
+
+.expand-column-wrapper .column:nth-of-type(4) {
+  background: url("images/greed.png") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+		font-size: 16px;
+}
+
+.expand-column-wrapper .column:nth-of-type(5) {
+  background: url("images/love.png") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+		font-size: 16px;
+}
+
+.expand-column-wrapper .column:nth-of-type(6) {
+  background: url("images/fear.png") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+		font-size: 16px;
+}
+
+.expand-column-wrapper .column:nth-of-type(7) {
+  background: url("images/compassion.png") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+		font-size: 16px;
+}
+
+.expand-column-wrapper .column:nth-of-type(8) {
+  background: url("images/life.png") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+		font-size: 16px;
+}
+
+.expand-column-wrapper .column:nth-of-type(9) {
+  background: url("images/death.png") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+		font-size: 16px;
+}
+
+.expand-column-wrapper .column:nth-of-type(10) {
+  background: url("images/exhume.png") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+		font-size: 16px;
+}
